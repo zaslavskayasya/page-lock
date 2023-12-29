@@ -283,6 +283,7 @@ html{
     right: 12%;
     top: -244px;
     z-index: 1;
+    pointer-events: none;
     transform: translateY(0);
     animation: 6s linear 0.5s infinite alternate fly;
 }
