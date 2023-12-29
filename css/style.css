@@ -204,11 +204,12 @@ body{
   color: #fff;
   background: linear-gradient(252deg, #000008 12.62%, #000143 96.81%);
   overflow-x: hidden;
-  margin: 0px;;
+  margin: 0px;
 }
 
 html{
   overflow-x: hidden;
+  height: 100%;
 }
 
 .container{
@@ -218,7 +219,7 @@ html{
 }
 
 .logo{
-  padding-top: 65px;
+  padding-top: 45px;
   width: 223px;
   display: block;
 }
@@ -249,7 +250,7 @@ html{
 .normal-text{
   color: #FFF;
   font-family: Montserrat;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 200%; /* 40px */
@@ -260,7 +261,7 @@ html{
 .h1{
   color: #FFF;
   font-family: Montserrat;
-  font-size: 180px;
+  font-size: 170px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -308,7 +309,7 @@ html{
   .text-block {
     margin-left: 17.5%;
     max-width: 410px;
-    margin-top: 45px;
+    margin-top: 6%;
   }
   .h1 {
     font-size: 117px;
@@ -336,14 +337,18 @@ html{
   .main-pic {
     right: 5%;
     max-width: 400px;
-    top: -50px;
+    top: -150px;
   }
   .h1 {
     font-size: 80px;
   }
 }
 
-
+@media screen and (max-width: 1050px){
+  .main-pic {
+    top: -50px;
+  }
+}
 @media screen and (max-width: 780px){
   .logo {
     padding-top: 46px;
