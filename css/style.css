@@ -308,18 +308,20 @@ html{
   .text-block {
     margin-left: 17.5%;
     max-width: 410px;
-    margin-top: 67px;
+    margin-top: 45px;
   }
   .h1 {
     font-size: 117px;
+    margin-bottom: 56px;
+    padding-top: 10px;
+  }
+  .logo{
+    padding-top: 25px;
   }
 }
 
 
 @media screen and (max-width: 1400px){
-  .logo{
-    padding-top: 35px;
-  }
   .main-pic {
     right: 6%;
     max-width: 490px;
