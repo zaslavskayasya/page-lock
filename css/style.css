@@ -361,7 +361,7 @@ html{
     line-height: 200%;
   }
   .text-block {
-    margin-left: 18.5%;
+    margin-left: 24%;
     max-width: 251px;
     margin-top: 107px;
   }
@@ -382,5 +382,8 @@ html{
 @media screen and (max-width: 350px){
   .h1 {
     font-size: 53px;
+  }
+  .text-block {
+    margin-left: 24%;
   }
 }
